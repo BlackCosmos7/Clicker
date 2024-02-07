@@ -61,4 +61,10 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
     }
+
+    //void SaveLoad()
+    //{
+     //   int totalScore = PlayerPrefs.GetInt("score");
+       // PlayerPrefs("score", totalScore + score);
+    //}
 }
