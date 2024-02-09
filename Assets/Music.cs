@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,8 +19,8 @@ public class Music : MonoBehaviour
 
     void Update()
     {
-        if (PlayerPrefs.GetInt("music") == 0)
-        {
+        if (PlayerPrefs.GetInt("music") == 0)*/
+   /*     {
             MusicButton.GetComponent<Image>().sprite = onMusic;
             ad.enabled = true;
             isOn = true;
@@ -44,4 +44,4 @@ public class Music : MonoBehaviour
             PlayerPrefs.SetInt("music", 1);
         }
     }
-}
+}*/
